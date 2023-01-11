@@ -12,7 +12,7 @@ function EditEmployee() {
     <>
       <button
         onClick={handleShow}
-        className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
+        className="px-4 py-1 text-sm text-pink-600 font-semibold rounded-full border border-pink-600 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2"
       >
         Update
       </button>
@@ -68,10 +68,19 @@ function EditEmployee() {
         </Modal.Body>
         <Modal.Footer>
           <button
-            className="bg-slate-400 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded"
+            className="bg-pink-600 hover:bg-gray-200 text-white font-bold py-2 px-4 rounded"
+            form="editmodal"
             onClick={handleClose}
           >
-            Close
+            {" "}
+            Close{" "}
+          </button>
+          <button
+            className="bg-pink-600 hover:bg-gray-200 text-white font-bold py-2 px-4 rounded"
+            form="editmodal"
+          >
+            {" "}
+            Update{" "}
           </button>
         </Modal.Footer>
       </Modal>
