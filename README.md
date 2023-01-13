@@ -14,8 +14,14 @@ The page will reload when updated and reflect changes
 
 Image, role, and name can be viewed
 
+<img width="1117" alt="image" src="https://user-images.githubusercontent.com/93014710/212232127-031d9566-48e4-4d25-8a6c-a107b53239be.png">
+
+
 ### Pop-up to edit the current directory
 
 A form modal is built to change any information on directory
+
+<img width="805" alt="image" src="https://user-images.githubusercontent.com/93014710/212232415-f6450704-628c-4247-9f48-47fa6cd02247.png">
+
 
 ~ From Caleb Curry's React JS Course ~
