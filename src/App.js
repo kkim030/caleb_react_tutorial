@@ -75,7 +75,7 @@ function App() {
           </div>
         </>
       ) : (
-        <p> You cannot see the employees </p>
+        <p> You cannot see the family members </p>
       )}
     </div>
   );
